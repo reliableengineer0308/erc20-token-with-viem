@@ -51,7 +51,7 @@ Before starting, make sure you have the following installed:
 Clone the repository and install the necessary dependencies:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/reliableengineer0308/erc20-token-with-viem.git
 cd erc20-token-with-viem
 npm install
 ```
