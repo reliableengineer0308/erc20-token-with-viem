@@ -155,7 +155,7 @@ Approves a spender to spend a specified amount of tokens on behalf of the sender
 
 Request:
 ```bash
-curl -X POST http://localhost:3000/approve -d '{"from": "0xYourAddress", "spender": "0xSpenderAddress", "amount": "100"}' -H "Content-Type: application/json"
+curl -X POST http://localhost:3000/approve -d '{"spender": "0xSpenderAddress", "amount": "100"}' -H "Content-Type: application/json"
 ```
 
 Response:
